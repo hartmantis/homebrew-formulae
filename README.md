@@ -1,10 +1,26 @@
-# Hartmantis Obs-plugins
+# My Homebrew formulae
 
-## How do I install these formulae?
+There are some tools I use that don't have official formulae in either the main Homebrew repo or from the vendor.
 
-`brew install hartmantis/obs-plugins/<formula>`
+Any of these can be installed with:
 
-Or `brew tap hartmantis/obs-plugins` and then `brew install <formula>`.
+`brew install hartmantis/$FORMULA`
+
+or
+
+`brew tap hartmantis/homebrewformulae && brew install $FORMULA`
+
+## Casks
+
+| Name | Description |
+|------|-------------|
+| firebot | The only Twitch-compatible chatbot I've been able to find that builds releases for macOS |
+| goxlr-utility | An unofficial, open source tool for using GoXLR mixers beyond just Windows |
+| obs-cloud-closed-captions | An OBS plugin to provide live captions via Google's speech recognition service |
+| obs-move-transition | An OBS plugin to make smooth transitions between scenes that share elements |
+| obs-shaderfilter | An OBS plugin for applying shaders to OBS sources |
+| obs-transition-table | An OBS plugin for easier configuration of scene transitions |
+| obs-waveform | An OBS plugin that adds an audio visualizer source |
 
 ## Documentation
 
