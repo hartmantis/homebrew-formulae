@@ -1,9 +1,11 @@
 cask "obs-transition-table" do
   version "0.2.7"
+  obs_site_version = "5172"
+  obs_site_file = "98262"
   sha256 "bacd396c93429a977cf26f2a647fe2670d9485a9308bc7985f96b3ffafedd529"
 
   # Plugin *does* have releases tagged in GitHub, but the artifacts only exist on the OBS forums.
-  url "https://obsproject.com/forum/resources/transition-table.1174/version/5172/download?file=98262"
+  url "https://obsproject.com/forum/resources/transition-table.1174/version/#{obs_site_version}/download?file=#{obs_site_file}"
   name "Transition Table"
   desc "OBS Studio Transitiona Table plugin"
   homepage "https://obsproject.com/forum/resources/transition-table.1174"
