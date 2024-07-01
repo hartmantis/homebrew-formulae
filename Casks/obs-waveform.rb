@@ -5,7 +5,8 @@ cask "obs-waveform" do
   sha256 arm:   "5904b7f7db83e92545ed768e7d737a38408d98b603ea0e69e74952eaf7e4f95a",
          intel: "bf8cfed3c9ac9d124258fe7f9a1ed9ebca70f8d35f2ae9d37d60d7c0df76bebd"
 
-  url "https://github.com/phandasm/waveform/releases/download/v#{version}/Waveform_v#{version}_MacOS_#{arch}.pkg"
+  url "https://github.com/phandasm/waveform/releases/download/v#{version}/Waveform_v#{version}_MacOS_#{arch}.pkg",
+      verified: "github.com/phandasm/waveform/"
   name "OBS Waveform"
   desc "Audio spectral analysis plugin for OBS Studio"
   homepage "https://obsproject.com/forum/resources/waveform.1423"

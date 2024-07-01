@@ -3,7 +3,8 @@ cask "firebot" do
   sha256 "4225fbcf88ef34ad9d92333395e4ef97f48198f3f960536706f5f917bb3b5ce4"
 
   # Firebot seems to run on ARM even though it has "x64" in the filename.
-  url "https://github.com/crowbartools/Firebot/releases/download/v#{version}/firebot-v#{version}-macos-x64.dmg"
+  url "https://github.com/crowbartools/Firebot/releases/download/v#{version}/firebot-v#{version}-macos-x64.dmg",
+      verified: "github.com/crowbartools/Firebot/"
   name "Firebot"
   desc "All-in-one bot for Twitch streamers"
   homepage "https://firebot.app/"
