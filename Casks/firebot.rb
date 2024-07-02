@@ -2,7 +2,10 @@ cask "firebot" do
   version "5.62.1"
   sha256 "4225fbcf88ef34ad9d92333395e4ef97f48198f3f960536706f5f917bb3b5ce4"
 
-  # Firebot seems to run on ARM even though it has "x64" in the filename.
+  # Firebot is currently x64-only but, if I'm reading right, the next release
+  # should get an ARM build by virtue of them using the `macos-latest` GitHub
+  # Actions runner and that having changed to an M1 runner since the last
+  # Firebot release.
   url "https://github.com/crowbartools/Firebot/releases/download/v#{version}/firebot-v#{version}-macos-x64.dmg",
       verified: "github.com/crowbartools/Firebot/"
   name "Firebot"
