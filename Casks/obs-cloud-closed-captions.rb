@@ -1,6 +1,6 @@
 cask "obs-cloud-closed-captions" do
-  version "0.28"
-  sha256 "f8bef90b407c455d8d3cd5ecee65a4c513513032bae89e2938c259c0690ed9d5"
+  version "0.30"
+  sha256 "f1c1e09b960a28a2b54fdce8f68a17fcf466cd51d4d4e445ad4af5ca38b15180"
 
   url "https://github.com/ratwithacompiler/OBS-captions-plugin/releases/download/v#{version}/Closed_Captions_Plugin__v#{version}_MacOS.zip",
       verified: "github.com/ratwithacompiler/OBS-captions-plugin/"
