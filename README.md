@@ -21,6 +21,7 @@ or
 | obs-shaderfilter | An OBS plugin for applying shaders to OBS sources |
 | obs-transition-table | An OBS plugin for easier configuration of scene transitions |
 | obs-waveform | An OBS plugin that adds an audio visualizer source |
+| reaper-chart-preview | A rhythm game chart authoriing preview VST for Reaper|
 
 ## Documentation
 
