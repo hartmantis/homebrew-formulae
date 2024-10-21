@@ -14,6 +14,7 @@ or
 
 | Name | Description |
 |------|-------------|
+| dopamine | My current preferred app for playing a library of FLAC albums on macOS |
 | firebot | The only Twitch-compatible chatbot I've been able to find that builds releases for macOS |
 | goxlr-utility | An unofficial, open source tool for using GoXLR mixers beyond just Windows |
 | obs-cloud-closed-captions | An OBS plugin to provide live captions via Google's speech recognition service |
