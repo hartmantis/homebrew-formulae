@@ -1,8 +1,8 @@
 cask "obs-move-transition" do
-  version "3.1.0"
-  obs_site_version = "5858"
-  obs_site_file = "108182"
-  sha256 "45a965d8cb4ed9cb700d486fd58706cfc5130b7d41e227c522d61ce7223babb2"
+  version "3.1.1"
+  obs_site_version = "5890"
+  obs_site_file = "108720"
+  sha256 "b52a23f3c4ba80904655bfef7050b6fa863a901079ab3b13f2f7661d91f8cfd3"
 
   # Plugin *does* have releases tagged in GitHub, but the artifacts only exist on the OBS forums.
   url "https://obsproject.com/forum/resources/move.913/version/#{obs_site_version}/download?file=#{obs_site_file}"
