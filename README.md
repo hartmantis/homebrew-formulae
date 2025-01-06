@@ -23,6 +23,7 @@ or
 | obs-transition-table | An OBS plugin for easier configuration of scene transitions |
 | obs-waveform | An OBS plugin that adds an audio visualizer source |
 | reaper-chart-preview | A rhythm game chart authoriing preview VST for Reaper|
+| supersonic | A music player client for Subsonic and Jellyfin servers |
 
 ## Documentation
 
