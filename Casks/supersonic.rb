@@ -1,9 +1,9 @@
 cask "supersonic" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.14.0"
-  sha256 arm:   "f74d0f615b46157d07e9339d8790c233559066192ac9e43fdb332fd16124e9ab",
-         intel: "3cbc5a8aa41f08d631eecf941d98db8bd3855e6e0758bff7ecc2eee5e4fd5be4"
+  version "0.15.0"
+  sha256 arm:   "fe0f7ea2e532dacd8c40a792a1cb76c601a005a397fab74c16435d60e2746748",
+         intel: "f9379b543ebd69be4bb98c0ef8540dfc0055156176ed0086edf9abf02aead6c4"
 
   url "https://github.com/dweymouth/supersonic/releases/download/v#{version}/Supersonic-#{version}-mac-#{arch}.zip"
   name "Supersonic"
@@ -14,6 +14,10 @@ cask "supersonic" do
     url :url
     strategy :github_latest
   end
+
+  deprecate! date:    "2025-04-06",
+             because: "Supersonic now has its own official tap and should be installed from " \
+                      "supersonic-app/supersonic instead"
 
   app "Supersonic.app"
 
