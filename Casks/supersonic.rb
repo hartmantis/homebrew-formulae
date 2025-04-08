@@ -1,9 +1,9 @@
 cask "supersonic" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.15.0"
-  sha256 arm:   "fe0f7ea2e532dacd8c40a792a1cb76c601a005a397fab74c16435d60e2746748",
-         intel: "f9379b543ebd69be4bb98c0ef8540dfc0055156176ed0086edf9abf02aead6c4"
+  version "0.15.1"
+  sha256 arm:   "e216fec619a3f4642f2b81a193c7eb2cdf4c881e253e09a3e65f01613f276512",
+         intel: "f88db8d9910160584e06b1be41fe189f88eb28d4776bea8c9a87bb8d241a3cc0"
 
   url "https://github.com/dweymouth/supersonic/releases/download/v#{version}/Supersonic-#{version}-mac-#{arch}.zip"
   name "Supersonic"
