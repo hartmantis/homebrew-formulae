@@ -8,7 +8,7 @@ Any of these can be installed with:
 
 or
 
-`brew tap hartmantis/homebrewformulae && brew install $FORMULA`
+`brew tap hartmantis/homebrew-formulae && brew install $FORMULA`
 
 ## Casks
 
