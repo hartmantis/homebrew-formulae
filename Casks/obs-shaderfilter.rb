@@ -1,6 +1,6 @@
 cask "obs-shaderfilter" do
-  version "2.4.3"
-  sha256 "14900cc510938016656fbb61d6f50098ce00a1d5bc9cd2e79f100f2cc75ba575"
+  version "2.5.0"
+  sha256 "6eeed29282a29b67efdc2a6a71f9f9cf056c6a023b941e3366a6fa5796481c5e"
 
   url "https://github.com/exeldro/obs-shaderfilter/releases/download/#{version}/obs-shaderfilter-#{version}-macos-universal.pkg",
       verified: "github.com/exeldro/obs-shaderfilter/"
