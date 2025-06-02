@@ -1,6 +1,6 @@
 cask "dopamine" do
-  version "3.0.0-preview.37"
-  sha256 "6ef5975cb14badf17922d3e33d6bde80b094cdde2d617a90b3c3e5fd7bca46c6"
+  version "3.0.0-preview.38"
+  sha256 "3a2633fb8298f99f9108e8927b2873df7299f858b05e4532e74dcd702ca12780"
 
   url "https://github.com/digimezzo/dopamine/releases/download/v#{version}/Dopamine-#{version}.dmg"
   name "Dopamine"
