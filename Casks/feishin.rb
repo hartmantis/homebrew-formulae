@@ -1,9 +1,9 @@
 cask "feishin" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.16.0"
-  sha256 arm:   "8e3f6de00b265e64ed01d7d50be87d7056c1a2b2aec341de863961e756d1bc81",
-         intel: "16a067da290d635e163aa13a99ab0b030299ee5f6ccab10acd4a273ca3e6562a"
+  version "0.17.0"
+  sha256 arm:   "eb1acc945e5a7f2465a830f694310cd0612712e51663b477e1e53e9a68c33440",
+         intel: "661d81c83642cf301b325c05281be413a0c31120d0eb5188628f3c5a671a9ae1"
 
   url "https://github.com/jeffvli/feishin/releases/download/v#{version}/Feishin-#{version}-mac-#{arch}.dmg"
   name "Feishin"
