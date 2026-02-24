@@ -1,9 +1,9 @@
 cask "firebot" do
   arch arm: "arm64", intel: "x64"
 
-  version "5.64.0"
-  sha256 arm:   "035433c0f99bc6d966feffdad2bf93e77f5f91e9033ffeb6218c7b4682b4451a",
-         intel: "ebe1fa8356289f6a900b51b9f296106c5bb4df2db3f62ee83886930de949ff5f"
+  version "5.65.4"
+  sha256 arm:   "72cd6daf94d4170d124981f21e6df7ce01894b4d89581e409e58ea60f52a5644",
+         intel: "71ee0b52da84307c05b2aabf0822e31acc29fd285361b6130e4ab35cff6c516f"
 
   url "https://github.com/crowbartools/Firebot/releases/download/v#{version}/firebot-v#{version}-macos-#{arch}.dmg",
       verified: "github.com/crowbartools/Firebot/"
