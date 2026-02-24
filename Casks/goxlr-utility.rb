@@ -1,9 +1,9 @@
 cask "goxlr-utility" do
   arch arm: "m1", intel: "intel"
 
-  version "1.2.2"
-  sha256 arm:   "a7b637eac026c5f26c5e46b50f2599404d87463731a65ba9a71a9f5b4d88b4a3",
-         intel: "25ef31777bf20e88d633b5bad641c7fa6983038612a13bdfeee240f31dc9b7a9"
+  version "1.2.4"
+  sha256 arm:   "2799d0861592e6bbd4fc21b4d6bf9c7c475c9306785c9ae61da5ee9f8da50468",
+         intel: "392ed62e1a2df9862336b20420baf8c40b988538851b88a778fe1a0c2a858ec1"
 
   url "https://github.com/GoXLR-on-Linux/goxlr-utility/releases/download/v#{version}/goxlr-utility-macos-#{version}-#{arch}.pkg"
   name "GoXLR Configuration Utility"
