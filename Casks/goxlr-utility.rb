@@ -15,6 +15,8 @@ cask "goxlr-utility" do
     strategy :github_latest
   end
 
+  depends_on :macos
+
   pkg "goxlr-utility-macos-#{version}-#{arch}.pkg"
 
   uninstall pkgutil: %w[

@@ -1,5 +1,4 @@
 cask "firebot" do
-  depends_on :macos
   arch arm: "arm64", intel: "x64"
 
   version "5.66.4"
@@ -16,6 +15,8 @@ cask "firebot" do
     url :url
     strategy :github_latest
   end
+
+  depends_on :macos
 
   app "Firebot.app"
 
