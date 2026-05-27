@@ -19,6 +19,8 @@ cask "supersonic" do
              because: "Supersonic now has its own official tap and should be installed from " \
                       "supersonic-app/supersonic instead"
 
+  depends_on :macos
+
   app "Supersonic.app"
 
   zap trash: "#{Dir.home}/Library/Application Support/supersonic"

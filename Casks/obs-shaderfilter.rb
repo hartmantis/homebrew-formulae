@@ -13,6 +13,7 @@ cask "obs-shaderfilter" do
     strategy :github_latest
   end
 
+  depends_on :macos
   depends_on cask: "obs"
 
   # OBS plugins need to go in the user's home dir and Homebrew's pkg stanza

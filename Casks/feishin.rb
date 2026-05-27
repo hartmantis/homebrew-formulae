@@ -15,6 +15,8 @@ cask "feishin" do
     strategy :github_latest
   end
 
+  depends_on :macos
+
   app "Feishin.app"
 
   zap trash: [
