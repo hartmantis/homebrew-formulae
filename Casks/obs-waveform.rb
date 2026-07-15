@@ -1,9 +1,9 @@
 cask "obs-waveform" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.8.1"
-  sha256 arm:   "72cc9c45c6abd379a9622f8fe30cda1e40144aea656a4463be0d1ef9149fb3c1",
-         intel: "86842c3afb6b8f5403914886ceef305088c145d3311d63d75fda560f98fc2421"
+  version "1.9.1"
+  sha256 arm:   "52f51cb479b42aa4cfa70d4ae31f65d876742fa5a57ce33dd42fdc5378f0e8d2",
+         intel: "7b47ad3a3bab85b13c7357629347a0d53c49d1ebdc1965d5b9a9e53a8ad5b106"
 
   url "https://github.com/phandasm/waveform/releases/download/v#{version}/Waveform_v#{version}_MacOS_#{arch}.pkg",
       verified: "github.com/phandasm/waveform/"
