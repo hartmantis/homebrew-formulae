@@ -2,8 +2,7 @@ cask "obs-shaderfilter" do
   version "2.5.1"
   sha256 "9ccae575283a06c289f4516632669d058c26797877b98a1274aaca7dd208dca9"
 
-  url "https://github.com/exeldro/obs-shaderfilter/releases/download/#{version}/obs-shaderfilter-#{version}-macos-universal.pkg",
-      verified: "github.com/exeldro/obs-shaderfilter/"
+  url "https://github.com/exeldro/obs-shaderfilter/releases/download/#{version}/obs-shaderfilter-#{version}-macos-universal.pkg"
   name "OBS Shader Filter"
   desc "OBS Studio filter for applying an arbitrary shader to a source"
   homepage "https://obsproject.com/forum/resources/obs-shaderfilter.1736"
