@@ -14,8 +14,8 @@ cask "obs-cloud-closed-captions" do
     strategy :header_match
   end
 
-  depends_on :macos
   depends_on cask: "obs"
+  depends_on :macos
 
   artifact "Closed_Captions_Plugin__v#{version}_MacOS/cloud-closed-captions.plugin",
            target: "#{Dir.home}/Library/Application Support/obs-studio/plugins/cloud-closed-captions.plugin"
