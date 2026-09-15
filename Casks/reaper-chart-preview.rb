@@ -12,8 +12,8 @@ cask "reaper-chart-preview" do
     strategy :github_latest
   end
 
-  depends_on :macos
   depends_on cask: "reaper"
+  depends_on :macos
 
   audio_unit_plugin "ChartPreview.component"
   vst3_plugin "ChartPreview.vst3"

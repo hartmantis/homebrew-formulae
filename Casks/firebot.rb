@@ -5,8 +5,7 @@ cask "firebot" do
   sha256 arm:   "997aa5a1f6e6a127678dfd0624f2d6c781da68a795900f57a2b0903721622085",
          intel: "886b0ed13b28a828b7c13b98c6fae4701882416a5f8734b58679625c926a85c2"
 
-  url "https://github.com/crowbartools/Firebot/releases/download/v#{version}/firebot-v#{version}-macos-#{arch}.dmg",
-      verified: "github.com/crowbartools/Firebot/"
+  url "https://github.com/crowbartools/Firebot/releases/download/v#{version}/firebot-v#{version}-macos-#{arch}.dmg"
   name "Firebot"
   desc "All-in-one bot for Twitch streamers"
   homepage "https://firebot.app/"

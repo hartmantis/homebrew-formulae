@@ -5,8 +5,7 @@ cask "obs-waveform" do
   sha256 arm:   "52f51cb479b42aa4cfa70d4ae31f65d876742fa5a57ce33dd42fdc5378f0e8d2",
          intel: "7b47ad3a3bab85b13c7357629347a0d53c49d1ebdc1965d5b9a9e53a8ad5b106"
 
-  url "https://github.com/phandasm/waveform/releases/download/v#{version}/Waveform_v#{version}_MacOS_#{arch}.pkg",
-      verified: "github.com/phandasm/waveform/"
+  url "https://github.com/phandasm/waveform/releases/download/v#{version}/Waveform_v#{version}_MacOS_#{arch}.pkg"
   name "OBS Waveform"
   desc "Audio spectral analysis plugin for OBS Studio"
   homepage "https://obsproject.com/forum/resources/waveform.1423"
@@ -16,8 +15,8 @@ cask "obs-waveform" do
     strategy :github_latest
   end
 
-  depends_on :macos
   depends_on cask: "obs"
+  depends_on :macos
 
   # OBS plugins need to go in the user's home dir and Homebrew's pkg stanza
   # can only put them in the root dir. This is admittedly hacky but feels
